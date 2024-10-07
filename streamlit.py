@@ -102,7 +102,6 @@ input_data = [[input_sex_F,input_sex_M,input_cpain_ASY,
 
 #tampilkan data yang akan diinputkan
 st.write("Data pasien yang akan diinput ke model")
-st.write(input_data)
 
 #buat fungsi untuk prediksi
 if st.button("Prediksi"):
