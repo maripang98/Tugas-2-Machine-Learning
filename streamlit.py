@@ -100,8 +100,6 @@ input_data = [[input_sex_F,input_sex_M,input_cpain_ASY,
                input_STslope_flat,input_STslope_up,Age,
                RestingBP,Cholesterol,input_fastbs,MaxHR,Old_peak]]
 
-#tampilkan data yang akan diinputkan
-st.write("Data pasien yang akan diinput ke model")
 
 #buat fungsi untuk prediksi
 if st.button("Prediksi"):
